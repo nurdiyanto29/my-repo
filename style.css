@@ -106,11 +106,13 @@ nav {
 
 .green {
     margin: 5px;
+    margin-bottom: 5px;
     text-align: start;
     width: auto;
     padding: 10px;
     background-color: #005c4b;
     border-radius: 15px 15px 0px;
+    margin-bottom: 38px;
 }
 
 #sentlabel {
@@ -135,6 +137,7 @@ nav {
     padding: 10px;
     background-color: #202c33;
     border-radius: 0px 15px 15px;
+    margin-bottom: 46px;
 }
 
 .grey2 {
