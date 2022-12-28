@@ -137,7 +137,7 @@ nav {
     padding: 10px;
     background-color: #202c33;
     border-radius: 0px 15px 15px;
-    margin-bottom: 46px;
+    margin-bottom: 56px;
 }
 
 .grey2 {
@@ -186,6 +186,10 @@ nav {
     color: rgba(219, 154, 33, 0.822);
 }
 
+.sk .bold2 {
+    color: rgba(219, 154, 33, 0.822);
+}
+
 
 /* resume thumbnail in received class*/
 
@@ -220,6 +224,10 @@ nav {
 
 .bold {
     font-weight: bold;
+}
+
+.bold2 {
+    font-weight: normal;
 }
 
 .alink {
@@ -321,8 +329,8 @@ footer {
     text-align: center;
     height: auto;
     background-color: #202c33;
-    text-align: center;
-    z-index: 99;
+    /* text-align: center; */
+    /* z-index: 99; */
 }
 
 .sendBar {
