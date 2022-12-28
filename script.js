@@ -104,7 +104,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(contactString);
             break;
         case "projects":
-            sendTextMessage("<span class='sk'>Berikut adalah beberapa Project yang pernah saya kerjakan:<br><span class='bold2'>- Routelink<br>Multi Kontrol Nusantara<br>- Trans Security<br>- IBM Incubator<br>- Sistem Keuangan Masjid<br>- GKI Adisucipto<br>- Rumaysho Store<br>- SIG Merapi<br>- Sistem Sewa Barongsai<br>- Trigana Air<br>- Web service PKK</span> <br><br>Jika kalian ingin tahu tentang projek saya? kalian bisa lihat di repositori github saya<br><br><div class='social'><a target='_blank' href='https://github.com/nurdiyanto29'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("<span class='sk'>Berikut adalah beberapa Project yang pernah saya kerjakan:<br><span class='bold2'>- Routelink<br>- Multi Kontrol Nusantara<br>- Trans Security<br>- IBM Incubator<br>- Sistem Keuangan Masjid<br>- GKI Adisucipto<br>- Rumaysho Store<br>- SIG Merapi<br>- Sistem Sewa Barongsai<br>- Trigana Air<br>- Web service PKK</span> <br><br>Jika kalian ingin tahu tentang projek saya? kalian bisa lihat di repositori github saya<br><br><div class='social'><a target='_blank' href='https://github.com/nurdiyanto29'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "new":
             sendTextMessage(addressString);
