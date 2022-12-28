@@ -310,7 +310,7 @@ nav {
 }
 
 footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -319,6 +319,7 @@ footer {
     height: auto;
     background-color: #202c33;
     text-align: center;
+    z-index: 99;
 }
 
 .sendBar {

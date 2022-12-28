@@ -8,6 +8,7 @@ function startFunction() {
     waitAndResponce("intro");
 }
 
+
 function setLastSeen() {
     var date = new Date();
     var lastSeen = document.getElementById("lastseen");
