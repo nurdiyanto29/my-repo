@@ -74,7 +74,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage2("Hello Semua 👋🏻,<br><br>Perkenalkan, nama saya <span class='bold'><a class='alink'>Nurdiyanto</a>.</span><br><br>Saya adalah seorang web developer yang masih dalam tahap belajar dan terus belajar 👨🏻‍💻📚<br><br>Saat ini saya bekerja di salah satu perusahan swasta di Yogyakarta sebagai <span class='bold'>   <a href='https://www.w3schools.com/whatis/whatis_fullstack.asp>FullStack Web Developer</a></span><br><br>Oh iya,  kalian bisa ketikan <span class='bold'>'help'</span> untuk tau tentang saya lebih detail.<br>");
+                sendTextMessage2("Hello Semua 👋🏻,<br><br>Perkenalkan, nama saya <span class='bold'><a class='alink'>Nurdiyanto</a>.</span><br><br>Saya adalah seorang web developer yang masih dalam tahap belajar dan terus belajar 👨🏻‍💻📚<br><br>Saat ini saya bekerja di salah satu perusahan swasta di Yogyakarta sebagai <span class='bold'>FullStack Web Developer</span><br><br>Oh iya,  kalian bisa ketikan <span class='bold'>'help'</span> untuk tau tentang saya lebih detail.<br>");
             }, 2000);
             break;
         case "help":
@@ -171,7 +171,6 @@ function sendTextMessage2(textToSend) {
     playSound();
 }
 
-a h
 
 function sendResponse() {
     setTimeout(setLastSeen, 1000);
