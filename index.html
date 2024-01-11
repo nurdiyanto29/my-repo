@@ -172,7 +172,7 @@ https://www.tooplate.com/view/2115-marvel
               </div>
             </div>
 
-            
+
 
           </div>
         </div>
@@ -267,6 +267,28 @@ https://www.tooplate.com/view/2115-marvel
 
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="developmentModal" tabindex="-1" role="dialog" aria-labelledby="developmentModalLabel"
+      aria-hidden="true" data-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="developmentModalLabel">Website under development</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This website is still under development. Some features may not be available yet.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="showMainContent()">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <!-- <!- FOOTER -->
@@ -275,8 +297,8 @@ https://www.tooplate.com/view/2115-marvel
       <div class="row">
 
         <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; 2023</p>
-          <p class="copyright-text text-center">Designed by me with<a rel="nofollow" href="/">love</a></p>
+          <p class="copyright-text text-center">Copyright &copy; <span id="yearContainer"></span></p>
+          <p class="copyright-text text-center">Designed by me with <a rel="nofollow" href="/"> Love</a></p>
         </div>
 
       </div>
@@ -291,6 +313,30 @@ https://www.tooplate.com/view/2115-marvel
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/custom.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#developmentModal').modal('show');
+      $('#developmentModal').on('shown.bs.modal', function () {
+        $(this).find('.modal-dialog').css({
+          'display': 'flex',
+          'align-items': 'center',
+          'justify-content': 'center'
+        });
+      });
+
+      var currentYear = new Date().getFullYear();
+      // Menambahkan tahun ke elemen HTML dengan id "yearContainer"
+      $("#yearContainer").text(currentYear);
+    });
+
+    function showMainContent() {
+      // Tambahkan logika atau tindakan lain untuk menampilkan konten utama
+      // Misalnya, mengubah gaya atau menghilangkan kelas tertentu yang menyembunyikan konten
+    }
+  </script>
+
+
 
 </body>
 
